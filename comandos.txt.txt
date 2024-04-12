@@ -1,0 +1,36 @@
+git grep [padrão]: Procura por padrões em arquivos do repositório.
+git ls-files: Lista arquivos sob controle de versão do Git.
+git show-branch: Mostra as relações entre branches.
+git describe [commit]: Fornece uma descrição legível de um commit.
+git clean -n: Mostra quais arquivos seriam removidos pelo git clean, mas não os remove de fato.
+git clean -df: Remove arquivos não rastreados e diretórios não rastreados.
+git clean -xdf: Remove arquivos e diretórios não rastreados, incluindo aqueles ignorados pelo Git.
+git revert --no-commit [commit]: Aplica as alterações introduzidas por um commit específico, mas não cria um novo commit.
+git revert --abort: Cancela o processo de revert.
+git stash clear: Remove todos os itens do stash.
+git config --global alias.[alias]: Exibe um alias previamente definido.
+git config --global --unset alias.[alias]: Remove um alias previamente definido.
+git tag -l: Lista todas as tags existentes.
+git tag -v [tag]: Verifica a assinatura GPG de uma tag.
+git tag -s [tag] -m "[mensagem]": Cria uma tag assinada usando GPG.
+git push [remote] --tags: Envia todas as tags locais para o repositório remoto.
+git push [remote] :[branch]: Remove uma branch remota.
+git cherry-pick --abort: Cancela o processo de cherry-pick.
+git cherry-pick --continue: Continua o processo de cherry-pick após resolver conflitos.
+git bisect visualize: Abre uma ferramenta gráfica para visualizar o processo de bisect.
+git bisect run [script]: Executa um script automatizado para determinar qual commit introduziu um bug.
+git blame -C [file]: Mostra quem modificou cada linha de um arquivo, mesmo que o arquivo tenha sido renomeado.
+git blame -M [file]: Mostra quem modificou cada linha de um arquivo, mesmo que as linhas tenham sido movidas.
+git shortlog -sn: Mostra um resumo de log ordenado por número de commits e nome do autor.
+git diff [branch1] [branch2]: Mostra as diferenças entre duas branches.
+git diff [commit1] [commit2]: Mostra as diferenças entre dois commits.
+git log --oneline: Mostra o histórico de commits em uma linha por commit.
+git log --decorate: Mostra informações sobre branches e tags ao lado de cada commit no histórico de log.
+git log --all: Mostra o histórico de commits de todas as branches.
+git remote prune [remote]: Remove referências locais para branches remotos que foram excluídas no repositório remoto.
+git push [remote] --delete [branch]: Remove uma branch específica do repositório remoto.
+git pull --rebase: Realiza um pull e, em seguida, rebasa as alterações locais por cima das alterações remotas.
+git merge --abort: Abandona o processo de merge.
+git merge --continue: Continua o processo de merge após resolver conflitos.
+git pull --all: Realiza um pull de todas as branches do repositório remoto.
+git add -p: Adiciona interativamente partes de um arquivo ao índice.
